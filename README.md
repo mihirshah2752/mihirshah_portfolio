@@ -60,102 +60,59 @@ Ensure you have the following installed:
    yarn install
    ```
 
-### Running the Project
+3. **Running the Project**
 
-To start the development server, use:
+    To start the development server, use:
 
-Using npm:
+    Using npm:
 
-```bash
-npm start
-```
+    ```bash
+    npm start
+    ```
 
-Using yarn:
+    Using yarn:
 
-```bash
-yarn start
-```
+    ```bash
+    yarn start
+    ```
 
-The application will be available at http://localhost:3000.
+    The application will be available at http://localhost:3000.
 
-3. **Building the Project**
+4. **Building the Project**
 
-To create a production build, use:
+    To create a production build, use:
 
-Using npm:
+    Using npm:
 
-```bash
-npm run build
-```
+    ```bash
+    npm run build
+    ```
 
-Using yarn:
+    Using yarn:
 
-```bash
-yarn build
-```
+    ```bash
+    yarn build
+    ```
 
-The production-ready files will be in the build directory.
+    The production-ready files will be in the build directory.
 
-4. **Running Tests**
+5. **Running Tests**
 
-To run tests, use:
+    To run tests, use:
 
-Using npm:
+    Using npm:
 
-```bash
-npm test
-```
+    ```bash
+    npm test
+    ```
 
-Using yarn:
+    Using yarn:
 
-```bash
-yarn test
-```
+    ```bash
+    yarn test
+    ```
 
-5. **Project Structure**
-
-├── public
-│ ├── index.html
-│ └── ...
-├── src
-│ ├── assets
-│ │ └── ...
-│ ├── components
-│ │ ├── AboutSection
-│ │ │ ├── AboutSection.js
-│ │ │ ├── AboutSection.scss
-│ │ │ └── ...
-│ │ ├── ContactSection
-│ │ │ ├── ContactSection.js
-│ │ │ ├── ContactSection.scss
-│ │ │ └── ...
-│ │ ├── ExperienceSection
-│ │ │ ├── ExperienceSection.js
-│ │ │ ├── ExperienceSection.scss
-│ │ │ └── ...
-│ │ ├── ProjectsSection
-│ │ │ ├── ProjectsSection.js
-│ │ │ ├── ProjectsSection.scss
-│ │ │ └── ...
-│ │ ├── SkillsSection
-│ │ │ ├── SkillsSection.js
-│ │ │ ├── SkillsSection.scss
-│ │ │ └── ...
-│ │ └── ...
-│ ├── constants
-│ │ └── contact.constants.js
-│ ├── styles
-│ │ ├── mixins.scss
-│ │ ├── variables.scss
-│ │ └── ...
-│ ├── App.js
-│ ├── index.js
-│ └── ...
-├── .gitignore
-├── package.json
-└── README.md
-
-6. **Sections**
+## **Sections**
 
 ### About
 
