@@ -1,0 +1,20 @@
+// src\styles\App.scss
+
+@import "./variables";
+@import "./mixins";
+@import "./scrollbar";
+
+body {
+  margin: 0 auto;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+
+  section {
+    // height: 100vh;
+    // @include flex-center;
+    font-size: 24px;
+  }
+}

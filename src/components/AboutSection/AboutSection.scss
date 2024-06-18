@@ -1,0 +1,100 @@
+// src\components\AboutSection\AboutSection.scss
+
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.about-section {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+
+  .about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 40px;
+
+    .about-image {
+      flex: 1;
+      min-width: 300px;
+      margin: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        max-width: 100%;
+        border-radius: 10px;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      }
+    }
+
+    .about-text {
+      flex: 2;
+      min-width: 300px;
+      margin: 20px;
+      text-align: left;
+
+      .intro-text {
+        font-size: 1.8rem;
+        color: $primary-color;
+        font-weight: bold;
+        margin-bottom: 20px;
+        padding: 0 20px;
+        background: linear-gradient(
+          90deg,
+          $primary-color,
+          $secondary-color,
+          $accent-color
+        );
+        @include background-clip(text);
+        color: transparent;
+      }
+
+      p {
+        font-size: 1rem;
+        color: $secondary-color;
+        margin-bottom: 20px;
+        line-height: 1.6;
+        padding: 0 20px;
+      }
+
+      .download-cv-button {
+        background-color: $primary-color;
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 1rem;
+        border: none;
+        cursor: pointer;
+        @include transition(all 0.3s);
+        margin: 0 20px;
+
+        &:hover {
+          background-color: darken($primary-color, 10%);
+        }
+      }
+    }
+  }
+
+  @include responsive(768px) {
+    .about-content {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0;
+
+      .about-text {
+        text-align: center;
+      }
+
+      .about-image {
+        min-width: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}

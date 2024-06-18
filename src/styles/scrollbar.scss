@@ -1,0 +1,36 @@
+// src/styles/scrollbar.scss
+
+@import "./variables";
+
+// Custom scrollbar styling
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: $secondary-color;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $primary-color;
+  border-radius: 10px;
+  border: 3px solid $secondary-color;
+  &:hover {
+    background: $accent-color;
+  }
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: $primary-color;
+}
+
+::-webkit-scrollbar-corner {
+  background: $secondary-color;
+}
+
+// For Firefox
+* {
+  scrollbar-width: thin;
+  scrollbar-color: $primary-color $secondary-color;
+}

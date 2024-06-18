@@ -1,0 +1,33 @@
+// src/styles/_mixins.scss
+
+@mixin flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin responsive($breakpoint) {
+  @media (max-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin background-clip($clip) {
+  -webkit-background-clip: $clip;
+  -moz-background-clip: $clip;
+  -ms-background-clip: $clip;
+  background-clip: $clip;
+}
+
+@mixin transition($properties...) {
+  transition: $properties;
+}
+
+@mixin transform($transform) {
+  transform: $transform;
+}

@@ -1,0 +1,99 @@
+// src/components/HomeSection/HomeSection.scss
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.home-section-wrapper {
+  background-image: url("../../assets/images/bg_home.jpg");
+  background-size: cover; // Cover the entire viewport
+  background-position: center;
+  background-attachment: fixed; // Ensure the background remains fixed
+  // Add more background styles as needed
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  // Header styles
+  .header {
+    padding: 20px;
+    background-color: transparent;
+    text-align: center;
+    position: relative;
+    @include flex-center;
+
+    &.sticky {
+      background-color: #000;
+      color: #fff;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+    }
+
+    // Rest of the header styles...
+  }
+
+  // Home section styles
+  .home-section {
+    // Add styling for home section if needed
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .content {
+      max-width: 1200px;
+      margin: 0 auto;
+      text-align: center;
+      color: $primary-color; // Set text color to white for better visibility against the background
+
+      h1 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+      }
+
+      .role {
+        font-size: 2rem;
+        margin-bottom: 30px;
+        color: $secondary-color;
+
+        .designation {
+          color: $accent-color;
+
+          .Typewriter {
+            display: inline;
+          }
+        }
+      }
+
+      .hire-me-button {
+        background-color: $primary-color; // Use the primary color from variables
+        color: #fff;
+        padding: 10px 20px;
+        font-size: 1.5rem;
+        border: none;
+        cursor: pointer;
+        @include transition(all 0.3s);
+
+        &:hover {
+          background-color: darken($primary-color, 10%);
+        }
+      }
+    }
+
+    @include responsive(768px) {
+      // Mobile responsive styles
+      .content {
+        padding: 50px 20px; // Adjust padding for mobile
+      }
+
+      h1 {
+        font-size: 2.5rem; // Adjust font size for mobile
+      }
+
+      .role {
+        font-size: 1.5rem; // Adjust font size for mobile
+      }
+    }
+  }
+}
