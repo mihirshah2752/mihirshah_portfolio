@@ -1,7 +1,7 @@
 // src\constants\about-me.constants.js
 
-export const ABOUT_TITLE = "About Me";
-export const ABOUT_HEADER = "who i am";
+export const ABOUT_TITLE = 'About Me';
+export const ABOUT_HEADER = 'who i am';
 export const INTRO_TITLE = `I develop interactive web-apps at Axis Bank`;
 export const INTRO_PARAGRAPH = `Currently, I am working as a full stack software engineer at Axis
 Bank having a role of Lead Full Stack Engineer, Strong engineering

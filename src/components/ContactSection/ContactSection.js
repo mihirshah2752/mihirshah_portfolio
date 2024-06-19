@@ -1,39 +1,28 @@
-import React from "react";
-import {
-  CONTACT_TITLE,
-  CONTACT_INFO,
-  CONTACT_HEADER,
-} from "../../constants/contact.constants";
-import SectionHeader from "../Custom/SectionHeader/SectionHeader";
-import {
-  FaLinkedin,
-  FaUser,
-  FaPhone,
-  FaBlog,
-  FaGithubSquare,
-  FaStackOverflow,
-} from "react-icons/fa";
-import { FaLocationDot } from "react-icons/fa6";
-import { MdEmail } from "react-icons/md";
-import "./ContactSection.scss";
+import React from 'react';
+import { CONTACT_TITLE, CONTACT_INFO, CONTACT_HEADER } from '../../constants/contact.constants';
+import SectionHeader from '../Custom/SectionHeader/SectionHeader';
+import { FaLinkedin, FaUser, FaPhone, FaBlog, FaGithubSquare, FaStackOverflow } from 'react-icons/fa';
+import { FaLocationDot } from 'react-icons/fa6';
+import { MdEmail } from 'react-icons/md';
+import './ContactSection.scss';
 
 const getIcon = (key) => {
   switch (key) {
-    case "Name":
+    case 'Name':
       return <FaUser />;
-    case "Address":
+    case 'Address':
       return <FaLocationDot />;
-    case "Email":
+    case 'Email':
       return <MdEmail />;
-    case "Contact":
+    case 'Contact':
       return <FaPhone />;
-    case "Blog":
+    case 'Blog':
       return <FaBlog />;
-    case "Linkedin":
+    case 'Linkedin':
       return <FaLinkedin />;
-    case "Stack Overflow":
+    case 'Stack Overflow':
       return <FaStackOverflow />;
-    case "GitHub":
+    case 'GitHub':
       return <FaGithubSquare />;
     default:
       return null;
@@ -51,20 +40,16 @@ const ContactSection = () => {
             <div className="contact-details">
               <div className="contact-key">{item.key}</div>
               <div className="contact-value">
-                {item.url || item.key === "Email" || item.key === "Contact" ? (
+                {item.url || item.key === 'Email' || item.key === 'Contact' ? (
                   <a
                     href={
-                      item.key === "Email"
+                      item.key === 'Email'
                         ? `mailto:${item.value}`
-                        : item.key === "Contact"
-                        ? `tel:${item.value}`
-                        : item.url
+                        : item.key === 'Contact'
+                          ? `tel:${item.value}`
+                          : item.url
                     }
-                    target={
-                      item.key === "Email" || item.key === "Contact"
-                        ? null
-                        : "_blank"
-                    }
+                    target={item.key === 'Email' || item.key === 'Contact' ? null : '_blank'}
                     rel="noopener noreferrer"
                   >
                     {item.value}

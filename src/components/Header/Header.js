@@ -1,7 +1,7 @@
 // src/components/Header.js
-import React, { useState } from "react";
-import { TITLE, NAV_MENU } from "../../constants/header.constants";
-import "./Header.scss";
+import React, { useState } from 'react';
+import { TITLE, NAV_MENU } from '../../constants/header.constants';
+import './Header.scss';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,13 +12,13 @@ const Header = () => {
   const handleNavClick = (id) => {
     const section = document.getElementById(id);
     if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
+      section.scrollIntoView({ behavior: 'smooth' });
       setIsMenuOpen(false);
     }
   };
 
   return (
-    <header className={"header"}>
+    <header className={'header'}>
       <div className="header-content">
         <div className="name">
           <h1>{TITLE}</h1>
@@ -34,7 +34,7 @@ const Header = () => {
           ☰
         </div>
       </div>
-      <div className={`mobile-menu ${isMenuOpen ? "open" : ""}`}>
+      <div className={`mobile-menu ${isMenuOpen ? 'open' : ''}`}>
         <div className="close-icon" onClick={toggleMenu}>
           ✖
         </div>

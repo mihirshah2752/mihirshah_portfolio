@@ -1,20 +1,20 @@
 // src/components/HomeSection/HomeSection.js
-import React from "react";
-import Header from "../Header/Header";
-import "./HomeSection.scss";
-import { TITLE } from "../../constants/header.constants";
+import React from 'react';
+import Header from '../Header/Header';
+import './HomeSection.scss';
+import { TITLE } from '../../constants/header.constants';
 import {
   HIRE_ME_TEXT,
   ROLE_STARTING_TEXT,
   DESIGNATION_TEXT,
   CONTENT_STARTING_TEXT,
-} from "../../constants/home-section.constants";
+} from '../../constants/home-section.constants';
 
 const HomeSection = () => {
   const handleHireMeClick = () => {
-    const contactSection = document.getElementById("contact");
+    const contactSection = document.getElementById('contact');
     if (contactSection) {
-      contactSection.scrollIntoView({ behavior: "smooth" });
+      contactSection.scrollIntoView({ behavior: 'smooth' });
     }
   };
 
@@ -24,12 +24,10 @@ const HomeSection = () => {
       <div className="home-section" id="home">
         <div className="content">
           <h1>
-            {CONTENT_STARTING_TEXT}{" "}
-            <span className="animated-text">{TITLE}</span>
+            {CONTENT_STARTING_TEXT} <span className="animated-text">{TITLE}</span>
           </h1>
           <h2 className="role">
-            {ROLE_STARTING_TEXT}{" "}
-            <span className="designation">{DESIGNATION_TEXT}</span>
+            {ROLE_STARTING_TEXT} <span className="designation">{DESIGNATION_TEXT}</span>
           </h2>
           <button className="hire-me-button" onClick={handleHireMeClick}>
             {HIRE_ME_TEXT}

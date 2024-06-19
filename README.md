@@ -62,55 +62,55 @@ Ensure you have the following installed:
 
 3. **Running the Project**
 
-    To start the development server, use:
+   To start the development server, use:
 
-    Using npm:
+   Using npm:
 
-    ```bash
-    npm start
-    ```
+   ```bash
+   npm start
+   ```
 
-    Using yarn:
+   Using yarn:
 
-    ```bash
-    yarn start
-    ```
+   ```bash
+   yarn start
+   ```
 
-    The application will be available at http://localhost:3000.
+   The application will be available at http://localhost:3000.
 
 4. **Building the Project**
 
-    To create a production build, use:
+   To create a production build, use:
 
-    Using npm:
+   Using npm:
 
-    ```bash
-    npm run build
-    ```
+   ```bash
+   npm run build
+   ```
 
-    Using yarn:
+   Using yarn:
 
-    ```bash
-    yarn build
-    ```
+   ```bash
+   yarn build
+   ```
 
-    The production-ready files will be in the build directory.
+   The production-ready files will be in the build directory.
 
 5. **Running Tests**
 
-    To run tests, use:
+   To run tests, use:
 
-    Using npm:
+   Using npm:
 
-    ```bash
-    npm test
-    ```
+   ```bash
+   npm test
+   ```
 
-    Using yarn:
+   Using yarn:
 
-    ```bash
-    yarn test
-    ```
+   ```bash
+   yarn test
+   ```
 
 ## **Sections**
 
@@ -133,6 +133,3 @@ Provides various ways to get in touch with, including email, phone, and social m
 ## License
 
 This project is licensed under the MIT License.
-
-
-

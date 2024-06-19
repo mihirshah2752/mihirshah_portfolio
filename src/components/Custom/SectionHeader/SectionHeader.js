@@ -1,5 +1,5 @@
-import React from "react";
-import "./SectionHeader.scss";
+import React from 'react';
+import './SectionHeader.scss';
 
 const SectionHeader = ({ title, subtitle }) => {
   return (

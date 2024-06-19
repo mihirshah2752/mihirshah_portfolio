@@ -1,115 +1,111 @@
 // src\constants\skills-svgs.constants.js
 
-export const BASE_SVG_URL =
-  "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/";
+export const BASE_SVG_URL = 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/';
 
 // Javascript
-export const JS_SVG = "javascript/javascript-original.svg";
-export const JS_SVG_ALT = "javascript";
-export const JS_SVG_HREF = "https://www.javascript.com/";
+export const JS_SVG = 'javascript/javascript-original.svg';
+export const JS_SVG_ALT = 'javascript';
+export const JS_SVG_HREF = 'https://www.javascript.com/';
 
 // Typescript
-export const TS_SVG = "typescript/typescript-original.svg";
-export const TS_SVG_ALT = "typescript";
-export const TS_SVG_HREF = "https://www.typescriptlang.org/";
+export const TS_SVG = 'typescript/typescript-original.svg';
+export const TS_SVG_ALT = 'typescript';
+export const TS_SVG_HREF = 'https://www.typescriptlang.org/';
 
 // ReactJS
-export const REACTJS_SVG = "react/react-original-wordmark.svg";
-export const REACTJS_ALT = "react";
-export const REACTJS_HREF = "https://reactjs.org/";
+export const REACTJS_SVG = 'react/react-original-wordmark.svg';
+export const REACTJS_ALT = 'react';
+export const REACTJS_HREF = 'https://reactjs.org/';
 
 // NodeJS
-export const NODEJS_SVG = "nodejs/nodejs-original-wordmark.svg";
-export const NODEJS_ALT = "nodejs";
-export const NODEJS_HREF = "https://nodejs.org/";
+export const NODEJS_SVG = 'nodejs/nodejs-original-wordmark.svg';
+export const NODEJS_ALT = 'nodejs';
+export const NODEJS_HREF = 'https://nodejs.org/';
 
 // HTML5
-export const HTML5_SVG = "html5/html5-original-wordmark.svg";
-export const HTML5_ALT = "html5";
-export const HTML5_HREF =
-  "https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5";
+export const HTML5_SVG = 'html5/html5-original-wordmark.svg';
+export const HTML5_ALT = 'html5';
+export const HTML5_HREF = 'https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5';
 
 // CSS3
-export const CSS3_SVG = "css3/css3-original-wordmark.svg";
-export const CSS3_ALT = "css3";
-export const CSS3_HREF =
-  "https://developer.mozilla.org/en-US/docs/Glossary/CSS";
+export const CSS3_SVG = 'css3/css3-original-wordmark.svg';
+export const CSS3_ALT = 'css3';
+export const CSS3_HREF = 'https://developer.mozilla.org/en-US/docs/Glossary/CSS';
 
 // ExpressJS
-export const EXPRESS_SVG = "express/express-original-wordmark.svg";
-export const EXPRESS_ALT = "express";
-export const EXPRESS_HREF = "https://expressjs.com/";
+export const EXPRESS_SVG = 'express/express-original-wordmark.svg';
+export const EXPRESS_ALT = 'express';
+export const EXPRESS_HREF = 'https://expressjs.com/';
 
 // Sass
-export const SASS_SVG = "sass/sass-original.svg";
-export const SASS_ALT = "sass";
-export const SASS_HREF = "https://sass-lang.com/";
+export const SASS_SVG = 'sass/sass-original.svg';
+export const SASS_ALT = 'sass';
+export const SASS_HREF = 'https://sass-lang.com/';
 
 // NestJS
-export const NESTJS_SVG = "nestjs/nestjs-line-wordmark.svg";
-export const NESTJS_ALT = "nestjs";
-export const NESTJS_HREF = "https://nestjs.com/";
+export const NESTJS_SVG = 'nestjs/nestjs-line-wordmark.svg';
+export const NESTJS_ALT = 'nestjs';
+export const NESTJS_HREF = 'https://nestjs.com/';
 
 // NextJS
-export const NEXTJS_SVG = "nextjs/nextjs-line-wordmark.svg";
-export const NEXTJS_ALT = "nextjs";
-export const NEXTJS_HREF = "https://nextjs.org/";
+export const NEXTJS_SVG = 'nextjs/nextjs-line-wordmark.svg';
+export const NEXTJS_ALT = 'nextjs';
+export const NEXTJS_HREF = 'https://nextjs.org/';
 
 // MongoDB
-export const MONGODB_SVG = "mongodb/mongodb-original-wordmark.svg";
-export const MONGODB_ALT = "mongodb";
-export const MONGODB_HREF = "https://www.mongodb.com/";
+export const MONGODB_SVG = 'mongodb/mongodb-original-wordmark.svg';
+export const MONGODB_ALT = 'mongodb';
+export const MONGODB_HREF = 'https://www.mongodb.com/';
 
 // PostgreSQL
-export const POSTGRESQL_SVG = "postgresql/postgresql-original-wordmark.svg";
-export const POSTGRESQL_ALT = "postgresql";
-export const POSTGRESQL_HREF = "https://www.postgresql.org/";
+export const POSTGRESQL_SVG = 'postgresql/postgresql-original-wordmark.svg';
+export const POSTGRESQL_ALT = 'postgresql';
+export const POSTGRESQL_HREF = 'https://www.postgresql.org/';
 
 // ElectronJS
-export const ELECTRONJS_SVG = "electron/electron-original-wordmark.svg";
-export const ELECTRONJS_ALT = "electron";
-export const ELECTRONJS_HREF = "https://www.electronjs.org/";
+export const ELECTRONJS_SVG = 'electron/electron-original-wordmark.svg';
+export const ELECTRONJS_ALT = 'electron';
+export const ELECTRONJS_HREF = 'https://www.electronjs.org/';
 
 // Redux
-export const REDUX_SVG = "redux/redux-original.svg";
-export const REDUX_ALT = "redux";
-export const REDUX_HREF = "https://redux.js.org/";
+export const REDUX_SVG = 'redux/redux-original.svg';
+export const REDUX_ALT = 'redux';
+export const REDUX_HREF = 'https://redux.js.org/';
 
 // AWS
-export const AWS_SVG =
-  "amazonwebservices/amazonwebservices-original-wordmark.svg";
-export const AWS_ALT = "amazonwebservices";
-export const AWS_HREF = "https://aws.amazon.com/";
+export const AWS_SVG = 'amazonwebservices/amazonwebservices-original-wordmark.svg';
+export const AWS_ALT = 'amazonwebservices';
+export const AWS_HREF = 'https://aws.amazon.com/';
 
 // Docker
-export const DOCKER_SVG = "docker/docker-original-wordmark.svg";
-export const DOCKER_ALT = "docker";
-export const DOCKER_HREF = "https://www.docker.com/";
+export const DOCKER_SVG = 'docker/docker-original-wordmark.svg';
+export const DOCKER_ALT = 'docker';
+export const DOCKER_HREF = 'https://www.docker.com/';
 
 // Git
-export const GIT_SVG = "git/git-original-wordmark.svg";
-export const GIT_ALT = "git";
-export const GIT_HREF = "https://www.git-scm.com/";
+export const GIT_SVG = 'git/git-original-wordmark.svg';
+export const GIT_ALT = 'git';
+export const GIT_HREF = 'https://www.git-scm.com/';
 
 // Bootstrap
-export const BOOTSTRAP_SVG = "bootstrap/bootstrap-original-wordmark.svg";
-export const BOOTSTRAP_ALT = "bootstrap";
-export const BOOTSTRAP_HREF = "https://getbootstrap.com/";
+export const BOOTSTRAP_SVG = 'bootstrap/bootstrap-original-wordmark.svg';
+export const BOOTSTRAP_ALT = 'bootstrap';
+export const BOOTSTRAP_HREF = 'https://getbootstrap.com/';
 
 // Materia UI
-export const MUI_SVG = "materialui/materialui-original.svg";
-export const MUI_ALT = "materialui";
-export const MUI_HREF = "https://mui.com/";
+export const MUI_SVG = 'materialui/materialui-original.svg';
+export const MUI_ALT = 'materialui';
+export const MUI_HREF = 'https://mui.com/';
 
 // Ant Design
-export const ANTD_SVG = "antdesign/antdesign-original-wordmark.svg";
-export const ANTD_ALT = "antdesign";
-export const ANTD_HREF = "https://ant.design/";
+export const ANTD_SVG = 'antdesign/antdesign-original-wordmark.svg';
+export const ANTD_ALT = 'antdesign';
+export const ANTD_HREF = 'https://ant.design/';
 
 // GRPC
-export const GRPC_SVG = "grpc/grpc-plain.svg";
-export const GRPC_ALT = "grpc";
-export const GRPC_HREF = "https://grpc.io/";
+export const GRPC_SVG = 'grpc/grpc-plain.svg';
+export const GRPC_ALT = 'grpc';
+export const GRPC_HREF = 'https://grpc.io/';
 
 export const SKILLS_SVG = [
   {

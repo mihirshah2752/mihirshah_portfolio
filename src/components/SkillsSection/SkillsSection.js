@@ -1,8 +1,5 @@
-import React from "react";
-import {
-  BASE_SVG_URL,
-  SKILLS_SVG,
-} from "../../constants/skills-svgs.constants";
+import React from 'react';
+import { BASE_SVG_URL, SKILLS_SVG } from '../../constants/skills-svgs.constants';
 import {
   SKILLS_HEADER,
   SKILLS_TITLE,
@@ -11,9 +8,9 @@ import {
   SKILLS_PARA_HEADER,
   SKILLS_PARA_TEXT1,
   SKILLS_SET,
-} from "../../constants/skills.constants";
-import "./SkillsSection.scss";
-import SectionHeader from "../Custom/SectionHeader/SectionHeader";
+} from '../../constants/skills.constants';
+import './SkillsSection.scss';
+import SectionHeader from '../Custom/SectionHeader/SectionHeader';
 
 const SkillsSection = () => {
   return (
@@ -28,23 +25,13 @@ const SkillsSection = () => {
               <b>{skill.name}</b> <span>{skill.value}</span>
             </p>
           ))}
-          <a
-            href={GITHUB_HREF}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="skills-button"
-          >
+          <a href={GITHUB_HREF} target="_blank" rel="noopener noreferrer" className="skills-button">
             {GITHUB_BUTTON_TEXT}
           </a>
         </div>
         <div className="skills-logos">
           {SKILLS_SVG.map((skill) => (
-            <a
-              key={skill.alt}
-              href={skill.href}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a key={skill.alt} href={skill.href} target="_blank" rel="noopener noreferrer">
               <img alt={skill.alt} src={BASE_SVG_URL + skill.svg} />
             </a>
           ))}

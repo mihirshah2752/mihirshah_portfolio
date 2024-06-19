@@ -1,7 +1,7 @@
 // src/components/ScrollToTopButton/ScrollToTopButton.js
 
-import React, { useState, useEffect } from "react";
-import "./ScrollToTopButton.scss";
+import React, { useState, useEffect } from 'react';
+import './ScrollToTopButton.scss';
 
 const ScrollToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -15,25 +15,22 @@ const ScrollToTopButton = () => {
       }
     };
 
-    window.addEventListener("scroll", toggleVisibility);
+    window.addEventListener('scroll', toggleVisibility);
 
     return () => {
-      window.removeEventListener("scroll", toggleVisibility);
+      window.removeEventListener('scroll', toggleVisibility);
     };
   }, []);
 
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth",
+      behavior: 'smooth',
     });
   };
 
   return (
-    <button
-      className={`scroll-to-top ${isVisible ? "visible" : ""}`}
-      onClick={scrollToTop}
-    >
+    <button className={`scroll-to-top ${isVisible ? 'visible' : ''}`} onClick={scrollToTop}>
       ↑
     </button>
   );
