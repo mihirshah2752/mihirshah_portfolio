@@ -7,7 +7,7 @@ export const CONTACT_INFO = [
   { key: "Name", value: "Mihir Shah" },
   { key: "Address", value: "Ahmedabad, Gujarat, India" },
   { key: "Email", value: "mihirshah2752@gmail.com" },
-  { key: "Contact", value: "+91 9586959961" },
+  { key: "Contact", value: "+91 7016661953" },
   {
     key: "Blog",
     value: "Visit my published blogs",
