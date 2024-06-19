@@ -9,6 +9,7 @@ import {
   DESIGNATION_TEXT,
   CONTENT_STARTING_TEXT,
 } from '../../constants/home-section.constants';
+import CustomButton from '../Custom/CustomButton/CustomButton';
 
 const HomeSection = () => {
   const handleHireMeClick = () => {
@@ -29,9 +30,7 @@ const HomeSection = () => {
           <h2 className="role">
             {ROLE_STARTING_TEXT} <span className="designation">{DESIGNATION_TEXT}</span>
           </h2>
-          <button className="hire-me-button" onClick={handleHireMeClick}>
-            {HIRE_ME_TEXT}
-          </button>
+          <CustomButton text={HIRE_ME_TEXT} handelClick={handleHireMeClick} />
         </div>
       </div>
     </div>

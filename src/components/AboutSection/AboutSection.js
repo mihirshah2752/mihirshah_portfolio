@@ -10,8 +10,9 @@ import {
   INTRO_TITLE,
 } from '../../constants/about-me.constants';
 import { TITLE } from '../../constants/header.constants';
-import './AboutSection.scss';
 import SectionHeader from '../Custom/SectionHeader/SectionHeader';
+import CustomButton from '../Custom/CustomButton/CustomButton';
+import './AboutSection.scss';
 
 const AboutSection = () => {
   const handleDownloadCV = () => {
@@ -28,9 +29,7 @@ const AboutSection = () => {
         <div className="about-text">
           <p className="intro-text">{INTRO_TITLE}</p>
           <p>{INTRO_PARAGRAPH}</p>
-          <button className="download-cv-button" onClick={handleDownloadCV}>
-            {DOWNLOAD_CV_TEXT}
-          </button>
+          <CustomButton text={DOWNLOAD_CV_TEXT} handelClick={handleDownloadCV} />
         </div>
       </div>
     </section>

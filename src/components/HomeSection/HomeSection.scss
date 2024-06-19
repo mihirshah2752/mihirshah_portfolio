@@ -4,15 +4,13 @@
 
 .home-section-wrapper {
   background-image: url("../../assets/images/bg_home.jpg");
-  background-size: cover; // Cover the entire viewport
+  background-size: cover;
   background-position: center;
-  background-attachment: fixed; // Ensure the background remains fixed
-  // Add more background styles as needed
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   height: 100vh;
 
-  // Header styles
   .header {
     padding: 20px;
     background-color: transparent;
@@ -29,13 +27,10 @@
       right: 0;
       z-index: 1000;
     }
-
-    // Rest of the header styles...
   }
 
   // Home section styles
   .home-section {
-    // Add styling for home section if needed
     flex: 1;
     display: flex;
     align-items: center;
@@ -45,7 +40,7 @@
       max-width: 1200px;
       margin: 0 auto;
       text-align: center;
-      color: $primary-color; // Set text color to white for better visibility against the background
+      color: $primary-color;
 
       h1 {
         font-size: 2rem;
@@ -66,33 +61,22 @@
         }
       }
 
-      .hire-me-button {
-        background-color: $primary-color; // Use the primary color from variables
-        color: #fff;
-        padding: 10px 20px;
+      .custom-button {
         font-size: 1.5rem;
-        border: none;
-        cursor: pointer;
-        @include transition(all 0.3s);
-
-        &:hover {
-          background-color: darken($primary-color, 10%);
-        }
       }
     }
 
     @include responsive(768px) {
-      // Mobile responsive styles
       .content {
-        padding: 50px 20px; // Adjust padding for mobile
+        padding: 50px 20px;
       }
 
       h1 {
-        font-size: 2.5rem; // Adjust font size for mobile
+        font-size: 2.5rem;
       }
 
       .role {
-        font-size: 1.5rem; // Adjust font size for mobile
+        font-size: 1.5rem;
       }
     }
   }

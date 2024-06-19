@@ -9,10 +9,15 @@ import {
   SKILLS_PARA_TEXT1,
   SKILLS_SET,
 } from '../../constants/skills.constants';
-import './SkillsSection.scss';
 import SectionHeader from '../Custom/SectionHeader/SectionHeader';
+import CustomButton from '../Custom/CustomButton/CustomButton';
+import './SkillsSection.scss';
 
 const SkillsSection = () => {
+  const handleButtonClick = (url) => {
+    console.log(url);
+    window.open(url, '_blank', 'noopener noreferrer');
+  };
   return (
     <section id="skills" className="skills-section">
       <SectionHeader title={SKILLS_TITLE} subtitle={SKILLS_HEADER} />
@@ -25,9 +30,7 @@ const SkillsSection = () => {
               <b>{skill.name}</b> <span>{skill.value}</span>
             </p>
           ))}
-          <a href={GITHUB_HREF} target="_blank" rel="noopener noreferrer" className="skills-button">
-            {GITHUB_BUTTON_TEXT}
-          </a>
+          <CustomButton text={GITHUB_BUTTON_TEXT} handelClick={() => handleButtonClick(GITHUB_HREF)} />
         </div>
         <div className="skills-logos">
           {SKILLS_SVG.map((skill) => (

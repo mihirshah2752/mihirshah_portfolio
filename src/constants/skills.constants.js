@@ -10,7 +10,7 @@ export const SKILLS_PARA_SKILLSET2_KEY = 'Backend Skills :';
 export const SKILLS_PARA_SKILLSET2_VALUE = 'Node Js, Express Js, Next Js, MongoDb, PostgreSQL.';
 export const SKILLS_PARA_SKILLSET3_KEY = 'Cloud and other services skill :';
 export const SKILLS_PARA_SKILLSET3_VALUE = 'GRPC, Docker, and AWS.';
-export const GITHUB_BUTTON_TEXT = 'Visit My GitHub Project Repository';
+export const GITHUB_BUTTON_TEXT = 'Visit My GitHub Profile';
 export const GITHUB_HREF = 'https://github.com/mihirshah2752';
 export const SKILLS_SET = [
   {

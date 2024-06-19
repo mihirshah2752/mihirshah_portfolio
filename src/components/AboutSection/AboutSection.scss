@@ -61,19 +61,8 @@
         padding: 0 20px;
       }
 
-      .download-cv-button {
-        background-color: $primary-color;
-        color: #fff;
-        padding: 10px 20px;
-        font-size: 1rem;
-        border: none;
-        cursor: pointer;
-        @include transition(all 0.3s);
+      .custom-button {
         margin: 0 20px;
-
-        &:hover {
-          background-color: darken($primary-color, 10%);
-        }
       }
     }
   }

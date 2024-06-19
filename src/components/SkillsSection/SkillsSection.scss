@@ -72,21 +72,8 @@
         padding: 0 20px;
       }
 
-      .skills-button {
-        display: inline-block;
-        padding: 10px 20px;
-        margin-top: 20px;
-        font-size: 1rem;
-        color: #fff;
-        background-color: $primary-color;
-        border: none;
-        text-decoration: none;
-        transition: background-color 0.3s;
+      .custom-button {
         margin: 0 20px;
-
-        &:hover {
-          background-color: darken($primary-color, 10%);
-        }
       }
     }
 

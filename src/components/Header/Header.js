@@ -1,4 +1,5 @@
 // src/components/Header.js
+
 import React, { useState } from 'react';
 import { TITLE, NAV_MENU } from '../../constants/header.constants';
 import './Header.scss';
