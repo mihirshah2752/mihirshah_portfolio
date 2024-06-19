@@ -6,7 +6,7 @@ This project is a responsive portfolio website built using React. It showcases v
 
 ## Live Link
 
-You can view the live version of the project [here](https://your-live-link.com).
+You can view the live version of the project [here](https://mihirshah2752.github.io/).
 
 ## Features
 
@@ -42,7 +42,7 @@ Ensure you have the following installed:
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/mihirshah2752/mihirshah2752.github.io.git
    cd your-repo-name
    ```
 
