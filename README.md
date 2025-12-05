@@ -6,7 +6,7 @@ This project is a responsive portfolio website built using React. It showcases v
 
 ## Live Link
 
-You can view the live version of the project [here](https://mihirshah2752.github.io/).
+You can view the live version of the project [here](https://mihirshah.netlify.app/).
 
 ## Features
 
